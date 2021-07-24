@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dashboard</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="js/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<img class="logo" src="images/image_00.png">
+
+<h2>" Profitez de votre Jour J en toute serenité"</h2>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+  <!-- Brand/logo -->
+<a class="navbar-brand" href="images/image_00.png"><span style="font-family: Edwardian Script ITC;">The Event Planner</span></a>
+  
+  <!-- debut Navigation Bar -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html"><span class="fa fa-home"></span><span> Home</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="products.html"><span class="fa fa-navicon"></span><span> Products</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html"><span class="fa fa-info-circle"></span><span> About us</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="dashboard.html"><span class="fa fa-dashboard"></span><span> Dashboard</span></a>
+    </li>
+    <li class="nav-item" style="float:right">
+    <a class="nav-link" href="contact.html"> <span class="fa fa-address-book"></span><span> Contact us</a>
+    </li>
+  </ul>
+</nav>
+<!-- fin Navigation Bar -->
+
+
+<!-- Debut division page liste produits et detail-->
+
+<div class="container-fluid">
+
+<!-- debut Division PARAMETRES-->	
+	<div class="row">
+	<div class=col-md-2 style="background-color:#343a40; color: black;">
+		
+		<span style="font-family: sans-serif; color:#008080;">PARAMETRES</span><br>
+			<dl>
+			  <dt style="color:darkkhaki;">Gestion des utilisateurs</dt>
+				  <dd  style="color:gray;">- Utilisateur_1</dd>
+				  <dd  style="color:gray;">- Utilisateur_2</dd>
+				  <dd  style="color:gray;">- Utilisateur_3</dd>
+			  <dt>Gestion des articles</dt>
+				  <dd style="color:gray">- Articles_1</dd>
+				  <dd style="color:gray">- Articles_2</dd>
+				  <dd style="color:gray">- Articles_3</dd>
+			  <dt>Gestion des donnees</dt>
+			  	<dd style="color:grAy">- Donnees_1</dd>
+			  <dt>Gestion de la page</dt>
+			  <dd style="color:grAy">- Page_1</dd>
+			</dl>
+	</div>
+<!-- Fin Division PARAMETRES-->	
+
+<!-- debut Division TABLEAU-->	
+
+	<div class="col-md-10">
+		<div class="texte2" style="margin-top:10px";>
+		<p> Parametrage des articles et utilisateurs du site </p>
+	</div>
+
+<!-- debut tableau UTILISATEURS-->
+
+<strong style="font-family:poppins; font-size: x-large;"> Liste des Utilisateurs</strong>
+
+	<table class="table table-hover">
+		<tr>
+			<th>ID</th>
+			<th>Titre</th>
+			<th>Date de creation</th>	
+			<th>Nom Utilisateur</th>
+			<th>Update</th>
+			<th>Delete</th>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td class="fa fa-user-md">Utilisateur_1</td>
+			<td>03/01/2019</td>
+			<td>RAKOTO Mahery</td>
+			<td>Updated</td>
+			<td style="color:darkred">deleted</td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td class="fa fa-user-md">Utilisateur_2</td>
+			<td>03/01/2020</td>
+			<td>RAZAFY Mahefa</td>
+			<td>Updated</td>
+			<td style="color:darkred;">deleted</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td class="fa fa-user-md">Utilisateur_3</td>
+			<td>03/01/2021</td>
+			<td>RAVAOARISOA Mariette</td>
+			<td>Updated</td>
+			<td style="color:darkred;">deleted</td>
+		</tr>
+	</table>
+<!-- FIN tableau UTILISATEURS-->
+
+<!-- debut tableau ARTICLES-->
+
+<strong style="font-family:poppins; font-size: x-large;"> Liste des Articles</strong>
+
+	<table class="table table-hover">
+		<tr>
+			<th>ID</th>
+			<th>Titre</th>
+			<th>Date de creation</th>	
+			<th>Nom Articles</th>
+			<th>Update</th>
+			<th>Delete</th>
+		</tr>
+		
+		<tr>
+			<td>1</td>
+			<td class="fa fa-user-md">Articles_1</td>
+			<td>03/01/2019</td>
+			<td>Bouquets</td>
+			<td>Updated</td>
+			<td style="color:darkred">deleted</td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td class="fa fa-user-md">Article_2</td>
+			<td>03/01/2020</td>
+			<td>Voiture</td>
+			<td>Updated</td>
+			<td style="color:darkred;">deleted</td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td class="fa fa-user-md">Article_3</td>
+			<td>03/01/2021</td>
+			<td>Robes</td>
+			<td>Updated</td>
+			<td style="color:darkred;">deleted</td>
+		</tr>
+	</table>
+<!-- FIN tableau ARTICLES-->
+
+<!-- fIN Division TABLEAU-->
+<!-- Fin division page liste produits et detail-->
+
+<!--FOOTER-->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer"> 
+					<p>(c) copyright 2021 by vkaz.mg<sup>TM</sup></p>
+				</div>
+			</div>	
+		</div>
+<!--FOOTER-->
+</body>
+</html>

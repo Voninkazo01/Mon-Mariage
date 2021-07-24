@@ -1,0 +1,3 @@
+(function($){'use strict';if($('.user-rate-us').length){$('.user-rate-us').map(function(index,value){var _id_=$(this).attr('id');var data=$(this).attr('data-rating');$('#'+_id_).rateYo({readOnly:!0,rating:data,starWidth:"16px",halfStar:!0})})}
+if($('.rateYo').length){$('.rateYo').rateYo({fullStar:!0,starWidth:"16px",ratedFill:WC_REVIEW_AJAX.ratedFill,onChange:function(rating){$(this).parent().find('input').val(rating)}})}
+function weddingcity_review(){if($('.weddingcity_review').length){$('.weddingcity_review').map(function(index,value){var review=$(this).attr('data-review');$($(this)).rateYo({readOnly:!0,rating:review,starWidth:"16px",halfStar:!0,normalFill:WC_REVIEW_AJAX.normalFill,ratedFill:WC_REVIEW_AJAX.ratedFill,})})}}weddingcity_review()})(jQuery)
